@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * This is my first c programme
- * main - will print to standard out put using puts
- * when RETURN: (0) it means my programme is successful
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
