@@ -6,13 +6,14 @@
  */
 int main(void)
 {
-char fte[] = "_putchar\n";
-int i;
-
-while (fte[i] != '\0')
-{
-putchar(fte[i]);
-i++;
-}
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
