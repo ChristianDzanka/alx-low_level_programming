@@ -20,7 +20,7 @@ void times_table(void)
 
 			if (pdt <= 9)
 			{
-			_putchar(' ')
+			_putchar(' ');
 			}
 			else
 			{
@@ -29,6 +29,6 @@ void times_table(void)
 		_putchar((pdt / 10) + '0');
 
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
