@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * more_numbers - uppercase letters
- * @c: character to check
- *
- * Return: 0 or 1
+ * more_numbers - nmbr fct
+ * Bwave ICT file
+ * Return: no return
  */
 void more_numbers(void)
 {
