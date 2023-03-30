@@ -18,9 +18,11 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 	/* to copy the members of src to the end of dest */
 	while (src[j] != '\0' && j < n)
+	{
 		dest[i] = src[j];
 		i++;
 		j++;
+	}
 	dest[i] = '\0';
 	return (dest);
 }

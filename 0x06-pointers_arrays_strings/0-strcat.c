@@ -25,7 +25,7 @@ char *_strcat(char *dest, char *src)
 		a++;
 	}
 	/* add the null character to dest */
-	dest{i} = '\0';
+	dest[i] = '\0';
 
 	/* return the appended string */
 	return (dest);
